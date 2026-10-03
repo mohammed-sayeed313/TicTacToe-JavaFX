@@ -1,0 +1,149 @@
+/* Main application */
+.root {
+    -fx-background-color: #070B14;
+    -fx-font-family: "Segoe UI", "Arial";
+}
+
+/* Header */
+.title {
+    -fx-font-size: 38px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #F8FAFC;
+    -fx-letter-spacing: 3px;
+}
+
+.subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #94A3B8;
+}
+
+.turn-x {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #38BDF8;
+}
+
+.turn-o {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F472B6;
+}
+
+/* Score cards */
+.score-card {
+    -fx-background-color: #101827;
+    -fx-background-radius: 18;
+    -fx-border-color: #1E2A3C;
+    -fx-border-width: 1;
+    -fx-border-radius: 18;
+}
+
+.score-title {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #94A3B8;
+}
+
+.score-value {
+    -fx-font-size: 28px;
+    -fx-font-weight: 900;
+}
+
+.x-score {
+    -fx-text-fill: #38BDF8;
+}
+
+.o-score {
+    -fx-text-fill: #F472B6;
+}
+
+.draw-score {
+    -fx-text-fill: #CBD5E1;
+}
+
+/* Board */
+.game-cell {
+    -fx-background-color: #111D30;
+    -fx-background-radius: 22;
+    -fx-border-color: #1E2A3C;
+    -fx-border-width: 1;
+    -fx-border-radius: 22;
+    -fx-cursor: hand;
+}
+
+.game-cell-hover {
+    -fx-background-color: #182942;
+    -fx-border-color: #334155;
+}
+
+/* Symbols */
+.x-symbol {
+    -fx-font-size: 64px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #38BDF8;
+}
+
+.o-symbol {
+    -fx-font-size: 64px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #F472B6;
+}
+
+/* Winner */
+.winning-cell {
+    -fx-background-color: #16283D;
+    -fx-border-color: #38BDF8;
+    -fx-border-width: 3;
+    -fx-border-radius: 22;
+    -fx-background-radius: 22;
+}
+
+/* Status */
+.status-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #94A3B8;
+}
+
+.winner-x {
+    -fx-font-size: 19px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #38BDF8;
+}
+
+.winner-o {
+    -fx-font-size: 19px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #F472B6;
+}
+
+.draw-status {
+    -fx-font-size: 19px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #CBD5E1;
+}
+
+/* Buttons */
+.control-button {
+    -fx-min-width: 170px;
+    -fx-min-height: 48px;
+    -fx-background-color: #111D30;
+    -fx-background-radius: 14;
+    -fx-border-color: #334155;
+    -fx-border-width: 1;
+    -fx-border-radius: 14;
+    -fx-text-fill: #E2E8F0;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.control-button:hover {
+    -fx-background-color: #1E293B;
+    -fx-border-color: #38BDF8;
+    -fx-text-fill: #38BDF8;
+}
+
+.control-button:pressed {
+    -fx-background-color: #0F172A;
+}
